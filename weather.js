@@ -39,9 +39,9 @@ function process(data) {
             <li class="list-group-item">Longitude: ${data['coord']['lon']}</li>
             <li class="list-group-item">Latitude: ${data['coord']['lat']}</li>
             <li class="list-group-item">Temperature: ${data['main']['temp']} Fahrenheit</li>
-            <li class="list-group-item">Pressure: ${data['main']['pressure']} Fahrenheit</li>
-            <li class="list-group-item">Humidity: ${data['main']['humidity']} Fahrenheit</li>
-            <li class="list-group-item">Wind Speed: ${data['wind']['speed']} Fahrenheit</li>
+            <li class="list-group-item">Pressure: ${data['main']['pressure']} </li>
+            <li class="list-group-item">Humidity: ${data['main']['humidity']} </li>
+            <li class="list-group-item">Wind Speed: ${data['wind']['speed']}</li>
         </ul>
     </div>`;
 
